@@ -1,0 +1,74 @@
+.board {
+  text-align: center;
+  /* height: 100vh;
+  width: 100vw; */
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.boardBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 5vw;
+  padding: 35px;
+  padding-top: 30px;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  /* width: 50vw; */
+  border-color: white;
+  border-width: 10px;
+  flex: 0 2;
+}
+.left img {
+  height: 3.5vw;
+  min-height: 50px;
+}
+
+.posts {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 25px;
+  padding-top: 0px;
+}
+
+.onePost {
+  background-color: #E9B000;
+  height: 15vw;
+  min-height: 250px;
+  width: 15vw;
+  min-width: 250px;
+  margin: 13px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.postContent {
+  margin: 12%;
+  text-align: left;
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-size: 2em;
+
+  border: none;
+  outline: none;
+  resize: none;
+  height: 76%;
+  width: 76%;
+  background-color: transparent;
+}
+
+
+/* * {
+  border: royalblue solid 1px;
+} */

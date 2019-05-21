@@ -1,0 +1,53 @@
+.Self {
+  text-align: center;
+  background-color: #1D2731;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.selfContent-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.selfContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70vw;
+}
+
+.tutorial-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.tutorial {
+  border: white solid 4px;
+  border-radius: 20px;
+  border-bottom-right-radius: 0;
+  width: 25vw;
+  height: 15vw;
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+  font-family: 'Baloo Bhai', sans-serif;
+  line-height: 1.2em; 
+}
+
+.tutorial h4 {
+  text-align: center;
+  color: #E9B000;
+}
+
+.tutorial ul {
+  list-style-type:upper-roman;
+}
+/* 
+* {
+  border: yellow solid 1px;
+} */
+

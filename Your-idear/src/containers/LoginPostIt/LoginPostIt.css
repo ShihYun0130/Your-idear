@@ -1,0 +1,151 @@
+.loginPage {
+    height: 30vw;
+    width: 30vw;
+    min-width: 370px;
+    min-height: 370px;
+    margin: 15px;
+    background-color: rgb(241, 223, 115);
+    box-shadow: 5px 5px 7px rgba(51, 51, 51, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputwallbg {
+    background-color: rgb(141, 204, 246);
+}
+
+.createwallbg {
+    background-color: rgb(252, 180, 121);
+}
+
+.name {
+    font-size: 3.5em;
+    font-family: 'Amatic SC', cursive;
+}
+
+.content {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nameContent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameInput {
+    width: 85%;
+    height: 20%;
+    outline: none;
+    font-size: 2em;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: 'Waiting for the Sunrise', cursive;
+    text-align: center;
+}
+
+input::-webkit-input-placeholder {
+    color:rgb(83, 83, 83);
+    font-family: 'Waiting for the Sunrise', cursive;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.button {
+    width: 90%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.start {
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.button button {
+    background-color: transparent;
+    font-size: 1.5em;
+    font-family: 'Amatic SC', cursive;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+  
+
+.createWall {
+    margin: 5px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: rgb(2, 42, 129);
+    font-size: 1.2em;
+    font-family: 'Amatic SC', cursive;
+}
+
+.createWall:hover {
+    margin: 5px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Amatic SC', cursive;
+}
+
+.check {
+    font-family: 'Amatic SC', cursive;
+    color: rgb(116, 0, 0);
+    font-size: 1.5em;
+}
+
+.loginHint {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    white-space: nowrap;
+    align-items: center;
+    width:25vw;
+}
+
+.newWallDes {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+.newWallName {
+    font-size: 3em;
+}
+.newWall::-webkit-input-placeholder {
+    color:rgb(83, 83, 83);
+    font-family: 'Waiting for the Sunrise', cursive;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.newWall {
+    font-size: 1.2em;
+    width: 100%;
+}
+
+/* * {
+border: blue solid 1px;
+} */
+

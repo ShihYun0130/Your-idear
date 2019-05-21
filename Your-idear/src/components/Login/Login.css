@@ -1,0 +1,13 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.welcome {
+  font-size: 10em;
+  font-family: 'Amatic SC', cursive;
+}

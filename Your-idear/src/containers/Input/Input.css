@@ -1,0 +1,38 @@
+.inputField {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+/* .inputField input {
+    height: 30vw;
+    width: 30vw;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    word-break:break-all
+} */
+
+.inputField textarea {
+    border: none;
+    outline: none;
+    resize: none;
+    /* overflow: hidden; */
+    height: 30vw;
+    width: 30vw;
+    font-size: 3em;
+    background-color: transparent;
+    font-family: 'Waiting for the Sunrise', cursive;
+}
+
+textarea::-webkit-input-placeholder {
+    color:rgb(129, 106, 0);
+    font-family: 'Waiting for the Sunrise', cursive;
+    text-align: center;
+}
+
+
+
+
