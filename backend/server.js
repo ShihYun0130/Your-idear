@@ -29,6 +29,8 @@ app.use(express.static('public'))
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+
+
 app.post('/post', (req, res) => {
     // console.log('this is post /post');
     const body = req.body;
@@ -86,3 +88,6 @@ app.get('/wall', (req, res) => {
     });
 });
 
+app.get('*', (req, res)=>{
+    res.sendFile('index.html', {root: './public'})
+})
