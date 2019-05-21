@@ -49,12 +49,12 @@ CSS in the front end is the one that takes the most time in this project,
 and being unfamiliar to backend is another difficulty that I was encountered while doing this midterm project.
 Sadly, due to time limit, there are still a lot of functions that is worthy for adding 
 but I can only choose to leave them to my final project or finish them after class, for example: to write down the post-its by hand.<br>
-Being more familiar with react and node.js and css design is what I have learned in this porject, and being happy when finish 
+Being more familiar with react and node.js and css design is what I have learned in this project, and being happy when finish 
 a project but not simply a small homework or practice is another one.
 The one that I have just learn in a few minutes ago is that when I deploy the app to heroku, I found that I can't reload the page or the page will represent 
 "cannot Get /url", it is because that the url that server get will determine which page to present. However, at the same time, 
 the server have to deal with the data that front end request for the data in the database, thus, 
-to redesign the server for reouting can successfully solve this problem.
+to redesign the server for routing can successfully solve this problem.
 
 
 
